@@ -17,7 +17,7 @@ $(".play").click(function() {
     computerChoice = "paper";
     $(".computerChoice").text(computerChoice);
   }
-
+console.log("Hello world");
   if (userChoice === "rock" && computerChoice === "rock") {
     result = "It's a tie!";
   } else if (userChoice === "paper" && computerChoice === "rock") {
